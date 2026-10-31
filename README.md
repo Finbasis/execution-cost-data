@@ -55,6 +55,8 @@ x["round_trip_bp"] = 2 * (x.venue.map(fee_bp) + x.median_bp)
 print(x.groupby("venue").round_trip_bp.median())
 ```
 
+The website counts only coins that are reliable on both venues, so figures from this snippet can differ from the website in the third decimal place (for example, the Bitget median is 0.265% here and 0.264% on the website).
+
 ## Limitations
 
 - This is a model, not your fills. The cost is calculated by walking the order book on paper. Real orders also depend on speed, order type and how fast the market moves, and are often worse in a hurry.
