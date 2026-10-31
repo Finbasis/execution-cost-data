@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below and link to https://finbasis.app/."
+type: dataset
+title: "Finbasis execution cost data: crypto perpetual futures and spot on Hyperliquid and Bitget"
+authors:
+  - name: "Finbasis"
+version: "2026-10"
+date-released: 2026-10-31
+license: CC-BY-4.0
+url: "https://finbasis.app/"
+abstract: "Measured price impact of market orders by coin, venue, order size and hour of day, derived from live order-book snapshots. Perpetual futures 12-26 October 2026, spot 13-27 October 2026."
+keywords:
+  - crypto
+  - perpetual futures
+  - slippage
+  - order book
+  - Hyperliquid
+  - Bitget
+contact:
+  - email: "contact@finbasis.app"
